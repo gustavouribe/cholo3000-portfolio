@@ -3657,8 +3657,8 @@ a:active {
 
 .about {
   padding-top: 40px;
-  /* display: flex;
-  flex-direction: row; */
+  	/* display: flex;
+    flex-direction: row; */
   /* justify-content: center; */
   /* flex-wrap: wrap; */
   /* width: 1000px; */
@@ -3670,8 +3670,6 @@ a:active {
   font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
   letter-spacing: 2px;
-  animation-duration: 2.5s;
-  animation-delay: 1s;
 }
 
 .about-img {

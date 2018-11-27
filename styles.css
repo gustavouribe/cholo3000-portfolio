@@ -3571,30 +3571,6 @@ body {
   letter-spacing: 5px;
   padding: 5px 0px 5px 0px;
 }
-.section-title--about {
-  animation-duration: 2.5s;
-  animation-delay: 2s;
-}
-.section-title--projects {
-  animation-duration: 2.5s;
-  animation-delay: 2s;
-}
-.section-title--skills {
-  animation-duration: 2s;
-  animation-delay: 0s;
-}
-.section-title--education {
-  animation-duration: 1.3s;
-  animation-delay: 0s;
-}
-.section-title--certifications {
-  animation-duration: 2s;
-  animation-delay: 1s;
-}
-.section-title--footer {
-  animation-duration: 2s;
-  animation-delay: .25s;
-}
 
 .sticky-header {
   position: fixed;

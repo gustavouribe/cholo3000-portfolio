@@ -1,0 +1,19 @@
+// sass --watch styles.scss:styles.css --style expanded --sourcemap=none
+
+
+// BASE STYLES
+@import "css/base/animate";
+@import "css/base/_normalize";
+@import "css/base/_variables";
+@import "css/base/_mixins";
+@import "css/base/_global";
+// MODULES
+@import "css/modules/navbar";
+@import "css/modules/_header";
+@import "css/modules/_about";
+@import "css/modules/_projects";
+@import "css/modules/_skills";
+@import "css/modules/_education";
+@import "css/modules/_certificates";
+@import "css/modules/_footer";
+@import "css/modules/_lightbox";

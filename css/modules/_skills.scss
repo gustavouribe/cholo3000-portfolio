@@ -1,0 +1,32 @@
+
+.skills {
+  // padding-top: 70px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+  margin: 10px;
+  text-align: center;
+
+
+
+}
+
+.skills h3 {
+  margin: 5px;
+}
+@media only screen and (max-width: 580px) {
+  .skills {
+    margin: 3px;
+  }
+}
+.skills-images {
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+}
+
+.skills__block {
+  animation-duration: 2.5s;
+  animation-delay: 1s;
+
+}

@@ -1,0 +1,25 @@
+.certificates__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+  margin: auto;
+  padding: 0 10px 0 10px;
+}
+
+.certificates__images {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.certificates__wrapper a:link,
+a:visited,
+a:active {
+  color: white;
+}
+.certificates__wrapper a:hover {
+  color: red;
+}

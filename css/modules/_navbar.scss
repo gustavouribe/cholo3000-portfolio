@@ -1,0 +1,28 @@
+.sticky-header {
+  position: fixed;
+  display: block;
+  width: 100%;
+  top: 0px;
+  background-color: rgba(0, 0, 0, 0.897);
+
+
+.menu {
+  
+  
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-flow: wrap;
+
+  }
+  li {
+    list-style: none;
+    padding-right: 40px;
+    text-decoration: none;
+    
+  }
+}
+
+}
+

@@ -2,38 +2,42 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
 @import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700");
 body {
-	background-color: black;
-	margin: 0;
-	color: white;
-	font-family: "Montserrat", sans-serif;
+  background-color: black;
+  margin: 0;
+  color: white;
+  font-family: "Montserrat", sans-serif;
 }
 
 .section-title {
-	text-align: center;
+  text-align: center;
 	letter-spacing: 5px;
-	padding: 5px 0px 5px 0px;
+	
+	padding: 100px 0px 20px 0px; 
+	h1 {
+		margin: 0;
+	}
 	// &--about {
-	//   animation-duration: 2.5s;
-	//   animation-delay: 2s;
-	// }
-	// &--projects {
-	//   animation-duration: 2.5s;
-	//   animation-delay: 2s;
-	// }
-	// &--skills {
-	//   animation-duration: 2s;
-	//   animation-delay: 0s;
-	// }
-	// &--education {
-	//   animation-duration: 1.3s;
-	//   animation-delay: 0s;
-	// }
-	// &--certifications {
-	//   animation-duration: 2s;
-	//   animation-delay: 1s;
-	// }
-	// &--footer {
-	//   animation-duration: 2s;
-	//   animation-delay: .25s;
-	// }
+  //   animation-duration: 2.5s;
+  //   animation-delay: 2s;
+  // }
+  // &--projects {
+  //   animation-duration: 2.5s;
+  //   animation-delay: 2s;
+  // }
+  // &--skills {
+  //   animation-duration: 2s;
+  //   animation-delay: 0s;
+  // }
+  // &--education {
+  //   animation-duration: 1.3s;
+  //   animation-delay: 0s;
+  // }
+  // &--certifications {
+  //   animation-duration: 2s;
+  //   animation-delay: 1s;
+  // }
+  // &--footer {
+  //   animation-duration: 2s;
+  //   animation-delay: .25s;
+  // }
 }

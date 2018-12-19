@@ -3566,7 +3566,7 @@ body {
   max-width: 2800px;
   min-width: 300px;
   width: 100%;
-  margin: auto;
+  margin: 0;
   overflow-y: scroll;
   overflow-x: hidden;
 }
@@ -3903,20 +3903,16 @@ a:active {
   }
 }
 .lightbox-modal {
-  width: 100%;
-  max-width: 1000px;
+  width: 90%;
+  margin: auto;
   border-radius: 25px;
   margin: auto;
   color: black;
   font-size: 1.2rem;
   font-family: "Montserrat", sans-serif;
 }
-.lightbox-modal__image {
-  float: left;
-}
 .lightbox-modal__text {
-  padding-left: 20px;
-  float: left;
+  width: 100%;
 }
 .lightbox-modal__text strong {
   font-weight: 700;

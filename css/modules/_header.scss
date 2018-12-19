@@ -1,74 +1,78 @@
-
-.header-section__title{
-  animation-duration: 1.7s;
+.header-section__title {
+	animation-duration: 1.7s;
 }
 
-.header-section__subtitle{
-  animation-duration: 2.0s;
+.header-section__subtitle {
+	animation-duration: 2s;
 }
-
-
-
-
-
-
-
 
 .title {
-  display: flex;
-  justify-content: flex-end;
-  font-family: "PT Sans", sans-serif;
-  font-size: 7rem;
-  letter-spacing: 10px;
-  margin-bottom: 10px;
-
-
+	display: flex;
+	justify-content: flex-end;
+	font-family: "PT Sans", sans-serif;
+	font-size: 7rem;
+	letter-spacing: 10px;
+	margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 850px) {
-  .title {
-    font-size: 6rem;
-    margin-bottom: 5px;
-  }
-}
-@media only screen and (max-width: 750px) {
-  .title {
-    font-size: 5rem;
-  }
-}
-@media only screen and (max-width: 650px) {
-  .title {
-    font-size: 4rem;
-  }
-}
-@media only screen and (max-width: 550px) {
-  .title {
-    font-size: 2.7rem;
-  }
+	.title {
+		font-size: 6rem;
+		margin-bottom: 5px;
+	}
 }
 
+@media only screen and (max-width: 750px) {
+	.title {
+		font-size: 5rem;
+	}
+}
+
+@media only screen and (max-width: 650px) {
+	.title {
+		font-size: 4rem;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	.title {
+		font-size: 2.7rem;
+	}
+	@media only screen and (max-width: 400px) {
+		.title {
+			font-size: 2.2rem;
+		}
+	}
+}
 
 .subtitle {
-  display: flex;
-  justify-content: flex-start;
-  font-family: "PT Sans", sans-serif;
-  letter-spacing: 10px;
-  padding-left: 10px;
-  font-size: 1.2rem;
-  transition: all 0.2s;
+	display: flex;
+	flex-direction: row;
+	@media only screen and (max-width: 1000px) {
+		flex-direction: column;
+	}
+	justify-content: flex-start;
+	font-family: "PT Sans", sans-serif;
+	letter-spacing: 10px;
+	padding-left: 10px;
+	font-size: 1.2rem;
+	transition: all 0.2s;
+	width: 100%;
 }
+
 .subtitle a:link,
 a:visited,
 a:active {
-  color: red;
-  text-decoration: none;
-}
-.subtitle a:hover {
-  color: red;
-  text-decoration: none;
-  font-size: 110%;
-}
-.subtitle--gau {
-  color: red;
+	color: red;
+	text-decoration: none;
 }
 
+.subtitle a:hover {
+	color: red;
+	text-decoration: none;
+	font-size: 110%;
+}
+
+.subtitle--gau {
+	color: red;
+}

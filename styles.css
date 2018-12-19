@@ -3561,9 +3561,14 @@ th {
 }
 body {
   background-color: black;
-  margin: 0;
   color: white;
   font-family: "Montserrat", sans-serif;
+  max-width: 2800px;
+  min-width: 300px;
+  width: 100%;
+  margin: auto;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .section-title {
@@ -3599,7 +3604,7 @@ body {
 }
 
 .header-section__subtitle {
-  animation-duration: 2.0s;
+  animation-duration: 2s;
 }
 
 .title {
@@ -3632,14 +3637,26 @@ body {
     font-size: 2.7rem;
   }
 }
+@media only screen and (max-width: 550px) and (max-width: 400px) {
+  .title {
+    font-size: 2.2rem;
+  }
+}
 .subtitle {
   display: flex;
+  flex-direction: row;
   justify-content: flex-start;
   font-family: "PT Sans", sans-serif;
   letter-spacing: 10px;
   padding-left: 10px;
   font-size: 1.2rem;
   transition: all 0.2s;
+  width: 100%;
+}
+@media only screen and (max-width: 1000px) {
+  .subtitle {
+    flex-direction: column;
+  }
 }
 
 .subtitle a:link,

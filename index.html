@@ -86,7 +86,30 @@
           <h1>Projects</h1>
       </div>
       <div class="project__wrapper">
-
+          <div class="project__block">
+              <p>
+                <a
+                data-fancybox 
+                data-src="#gau-lightbox" 
+                href="javascript:;"
+                >
+  
+                  <img class="project-thumbnails" src="assets/images/websites/gau-website-small.jpg" alt="Clear View Escapes" />
+                </a>
+                <br />
+                <h3>Gustavo Adolfo Uribe</h3>
+                <span>Professional Website</span>
+                <br />
+                <span>React website</span>
+                <br />
+                <span>
+                    <img class="project-skills-images" src="assets/images/skills/react.svg" alt="jquery"/>
+                    <img class="project-skills-images" src="assets/images/skills/sass.png" alt="webpack"/>
+                  
+                </span>
+              </a>
+              </p>
+            </div>
 
           <div class="project__block">
             <p>
@@ -215,11 +238,26 @@
       <div 
       data-type="gallery" 
       style="display: none;" 
+      id="gau-lightbox" 
+      class="lightbox-modal"
+      >
+        <div class="lightbox-modal__image">
+            <a href="http://gustavoadolfouribe.surge.sh/" target="_blank"><img src="assets/images/websites/gau-website-small.jpg" width="100%"></a>
+        </div>
+        <div class="lightbox-modal__text">
+            <p><strong>Project overview:</strong> A mobile first website custom tailored for Gustavo Adolfo Uribe. Features a video background with an Instagram style unmute button on the homepage. The other pages feature different drop cap text layouts to simulate a high fashion magazine.</p>
+            <p><strong>Technologies used: </strong>The site was built in a custom SCSS create-react-app template. React-router was used for the webpage routes. The website's video was custom edited and optimized for download speed. There are different image crops for mobile first design. Hosted on Surge</p>               
+        </div>
+      </div>
+      <div 
+      data-type="gallery" 
+      style="display: none;" 
       id="travel-site-lightbox" 
       class="lightbox-modal"
       >
         <div class="lightbox-modal__image">
-            <a href="https://gustavouribe.github.io/travel-site-cholo3000/" target="_blank"><img src="assets/images/websites/travel-site-small.png" width="300"></a>
+            <a href="https://gustavouribe.github.io/travel-site-cholo3000/" target="_blank"><img src="assets/images/websites/travel-site-small.png" width="100%"
+            ></a>
         </div>
         <div class="lightbox-modal__text">
             <p><strong>Project overview:</strong> A mobile first business travel site with sticky header, revealed elements on scroll, lazy loading, and light box overlay. This website demonstrates standard business web layout with mobile pop out menu, features, and testimonials.</p>
@@ -234,7 +272,7 @@
         class="lightbox-modal"
       >
         <div class="lightbox-modal__image">
-            <a href="https://wine-food.herokuapp.com/" target="_blank"><img src="assets/images/websites/wine-food-small.png" width="300"></a>
+            <a href="https://wine-food.herokuapp.com/" target="_blank"><img src="assets/images/websites/wine-food-small.png" width="100%"></a>
         </div>
         <div class="lightbox-modal__text">
             <p><strong>Project overview:</strong> A food pairing web app created for wine enthusiasts. Users can search for their favorite wines and find recommended food pairings and vice versa. Users can also edit and add entries to the database. </p>
@@ -249,7 +287,7 @@
         class="lightbox-modal"
       >
         <div class="lightbox-modal__image">
-            <a href="http://csszengarden.surge.sh/" target="_blank"><img src="assets/images/websites/zen-garden-small.png" width="300"></a>
+            <a href="http://csszengarden.surge.sh/" target="_blank"><img src="assets/images/websites/zen-garden-small.png" width="100%"></a>
         </div>
         <div class="lightbox-modal__text">
             <p><strong>Project overview:</strong> A replica of www.csszengarden.com, this project was created as an exercise to duplicate older css languages with newer CSS 3 practices. </p>
@@ -264,7 +302,7 @@
       class="lightbox-modal"
       >
         <div class="lightbox-modal__image">
-            <a href="http://ghettostopwatch.surge.sh/" target="_blank"><img src="assets/images/websites/ghetto-stop-watch-small.png" width="300"></a>
+            <a href="http://ghettostopwatch.surge.sh/" target="_blank"><img src="assets/images/websites/ghetto-stop-watch-small.png" width="100%"></a>
         </div>
         <div class="lightbox-modal__text">
             <p><strong>Project overview:</strong> A tongue in cheek replica of Google's stop watch web app.</p>
@@ -279,7 +317,7 @@
       class="lightbox-modal"
       >
         <div class="lightbox-modal__image">
-            <a href="http://starwhores.surge.sh/" target="_blank"><img src="assets/images/websites/star-whores-small.png" width="300"></a>
+            <a href="http://starwhores.surge.sh/" target="_blank"><img src="assets/images/websites/star-whores-small.png" width="100%"></a>
         </div>
         <div class="lightbox-modal__text">
             <p><strong>Project overview:</strong> Using the Star Wars API (swapi), this website was themed for the most zealous Star Wars afficionado. Modeled after a Star Wars Visual Guide, this version uses custom Star Wars fonts, a Star Wars scroll, a custom header fined tuned with seven media queries.</p>
@@ -388,6 +426,7 @@
       <div class="certificates__wrapper">
         <div><img class="certificates__images" src="assets/images/education/udemy.png" alt="Udemy"/></div>
         <p><strong><a href="https://www.udemy.com/certificate/UC-U7O5UX4T/" target="_blank">The Coding Interview Bootcamp: Algorithms + Data Structures</a> </strong></p><span>Dec 2018</span> 
+        <p><strong><a href="https://www.udemy.com/certificate/UC-Q69LHH3W/" target="_blank">Master Web Design in Photoshop</a> </strong></p><span>Dec 2018</span> 
         <p><strong><a href="https://www.udemy.com/certificate/UC-MU5016FM/" target="_blank">Web UI UX Design using Adobe XD - User Experience Design</a> </strong></p><span>Nov 2018</span> 
         <p><strong><a href="https://www.udemy.com/certificate/UC-U6HIK7R6/" target="_blank">Sass Workflow</a> </strong></p><span>Nov 2018</span> 
         <p><strong><a href="https://www.udemy.com/certificate/UC-A5F69561/" target="_blank">Git a Web Developer Job: Mastering the Modern Workflow</a> </strong></p><span>Nov 2018</span>        

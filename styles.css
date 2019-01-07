@@ -3567,6 +3567,7 @@ body {
   min-width: 300px;
   width: 100%;
   margin: 0;
+  padding: 0px;
   overflow-y: scroll;
   overflow-x: hidden;
 }
@@ -3903,7 +3904,7 @@ a:active {
   }
 }
 .lightbox-modal {
-  width: 90%;
+  width: 85%;
   margin: auto;
   border-radius: 25px;
   margin: auto;
@@ -3919,4 +3920,11 @@ a:active {
 }
 .lightbox-modal:link {
   text-decoration: none;
+}
+
+.project-image {
+  max-width: 500px;
+  width: 100%;
+  float: left;
+  padding: 20px;
 }

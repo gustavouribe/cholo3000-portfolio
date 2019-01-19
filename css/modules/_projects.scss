@@ -32,6 +32,7 @@
 	}
 	&:link {
 		text-decoration: none;
+		color: black;
 	}
 }
 
@@ -39,11 +40,14 @@
 	background-color: white;
 	border-radius: 50%;
 	border-color: 4px solid black;
-	height: 25px;
-	width: 25px;
+	height: 30px;
+	width: 30px;
 	&--grey {
 		height: 26px;
 		width: 26px;
 		background-color: #323232; // background-color: black;
 	}
 }
+
+
+

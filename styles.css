@@ -3756,14 +3756,15 @@ a:active {
 }
 .project-thumbnails:link {
   text-decoration: none;
+  color: black;
 }
 
 .project-skills-images {
   background-color: white;
   border-radius: 50%;
   border-color: 4px solid black;
-  height: 25px;
-  width: 25px;
+  height: 30px;
+  width: 30px;
 }
 .project-skills-images--grey {
   height: 26px;
@@ -3918,9 +3919,6 @@ a:active {
 .lightbox-modal__text strong {
   font-weight: 700;
 }
-.lightbox-modal:link {
-  text-decoration: none;
-}
 
 .project-image {
   max-width: 500px;
@@ -3928,3 +3926,5 @@ a:active {
   float: left;
   padding: 20px;
 }
+
+/*# sourceMappingURL=styles.css.map */
